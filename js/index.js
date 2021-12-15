@@ -70,7 +70,6 @@ function declareWinner() {
     winner.textContent = "You lost.";
     playAgainBtn.innerText = "Try Again?";
   }
-  winner.textContent = str;
 }
 
 function clearContent() {
@@ -80,6 +79,8 @@ function clearContent() {
   scoreLabels.style.display = "none";
   scoreContainer.style.display = "none";
   resultContainer.style.display = "none";
+  winner.style.display = "block";
+  playAgainBtn.style.display = "block"
 
   playAgainBtn.addEventListener("click", () => {
   title.style.display = "block";
@@ -88,6 +89,8 @@ function clearContent() {
   scoreLabels.style.display = "flex";
   scoreContainer.style.display = "flex";
   resultContainer.style.display = "block";
+  winner.style.display = "none";
+  playAgainBtn.style.display = "none"
   resetGame();
   })
 }

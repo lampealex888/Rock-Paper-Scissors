@@ -54,15 +54,16 @@ img {
 
 #winner {
     font-size: 5em;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-top: 5em;
+    display: none;
 }
 
 #play-again-btn {
     margin-top: 0em;
     font-size: 2em;
     text-align: center;
+    display: none;
 }
 
 #play-again-btn:hover {
