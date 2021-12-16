@@ -23,7 +23,7 @@ buttons.forEach((button) => {
 
     playRound(playerSelection, computerSelection);
 
-    if (playerScore === 3 || computerScore === 3) {
+    if (playerScore === 5 || computerScore === 5) {
       declareWinner();
     }
   });
